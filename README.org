@@ -7,9 +7,14 @@ Requirements stored [[file:requirements.md][here]] (in Russian). Implemented as 
 This application built like any other things - from important to details. To see what important for me - you can walk through commit history. This repository have only 10 well documented commits.
 
 * Launch
-You can build jar file with
+Just build jar file with
 
-`lein uberjar `
+`$ lein uberjar `
+
+And launch:
+
+`$ docker-compose build`
+`$ docker-compose up`
 
 * Environment variables
 You need to pass some variables to environment.
