@@ -1,6 +1,7 @@
 (ns sac.use-cases
   "We have only two processes changes data. Application will have
-  another functions. But CQRS is the best")
+  another functions. But CQRS is the best"
+  (:require [sac.services :refer :all]))
 
 (defn register
   "Stores a new Customer in a repository and authenticate him"
