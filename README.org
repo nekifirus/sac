@@ -1,0 +1,8 @@
+Science Articles Cache
+
+This project written as exame task to join one little but strong Clojure developers team. I hope will get this goal.
+
+Requirements stored [[file:requirements.md][here]] (in Russian). Implemented as is.
+
+This application built like any other things - from important to details. To see what important for me - you can walk through commit history. This repository have only 10 well documented commits.
+
