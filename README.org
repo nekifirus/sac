@@ -4,21 +4,48 @@ This project written as exame task to join one little but strong Clojure develop
 
 Requirements stored [[file:requirements.md][here]] (in Russian). Implemented as is.
 
-This application built like any other things - from important to details. To see what important for me - you can walk through commit history. This repository have only 10 well documented commits.
+This application built like any other things - from important to details.
+
+To see what important for me - you can walk through well documented commit history.
+
+[[https://github.com/nekifirus/sac/commit/b9e2107d5cc65f122e2cbac2851529cac3ae5d92][1. There was Article and Customer at the begining]]
+
+[[https://github.com/nekifirus/sac/commit/bafdff14053846541a3625f2393a27440ac6bd5e][2. Add two commands only]]
+
+[[https://github.com/nekifirus/sac/commit/69bbe2f9bac2ba63cfbb03b1cd71a75bd3f3cf21][3. Define abstractions]]
+
+[[https://github.com/nekifirus/sac/commit/e253777964ff1fbe28a9167648c1fcbd6db95525][4. Add test implementations]]
+
+[[https://github.com/nekifirus/sac/commit/692d2ff0d6a7b4efb5836055f8d1a3935a7b936f][5. Test it]]
+
+[[https://github.com/nekifirus/sac/commit/5d64cb766660c605eb38e38d5ed5f29507365c01][6. Access control implementation]]
+
+[[https://github.com/nekifirus/sac/commit/d9020f2d6d6c7e9fb481fa1852824bd4cefd1636][7. Knowledge base implementation]]
+
+[[https://github.com/nekifirus/sac/commit/d98c80889bd5959c7640fea1e774740bbc1564e4][8. SQL repository implementation]]
+
+[[https://github.com/nekifirus/sac/commit/2728e409ac0b27830a1eaf0a4a2c586d1fbea0fc][9. JSON-API implementation]]
+
+[[https://github.com/nekifirus/sac/commit/987f74faee105318903fa501174c43fe93f43089][10. Uberjar and Dockerfile]]
+
+[[https://github.com/nekifirus/sac/commit/de919d77817d11556d232c172bf70378c87b9cff][11. PostgreSQL and docker-compose]]
+
 
 * Launch
 Just build jar file with
 
-`$ lein uberjar `
+*$ lein uberjar*
 
 And launch:
 
-`$ docker-compose build`
-`$ docker-compose up`
+*$ docker-compose build*
+
+*$ docker-compose up*
 
 * Environment variables
 You need to pass some variables to environment.
 
 JWT_SECRET - with secret to sign tokents
+
 ELSEVIER_APIKEY - to get articles from Scopus. You can register and get it [[https://dev.elsevier.com/][here]].
 
